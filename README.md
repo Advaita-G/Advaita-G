@@ -1,22 +1,25 @@
 # Advaita Gupta
 
-I’m a high school student building AI agents, developer tools, and paper-trading systems. I focus on explicit action boundaries, recoverable execution, and checking what a system actually did.
+I’m a high school student building AI agents, developer tools, and algorithmic trading systems. I’m currently doing research with **Professor Kaamran Raahemifar**.
 
-Research in progress with **Professor Kaamran Raahemifar**.
+[advaitagupta.com](https://advaitagupta.com) · Interested in Summer 2027 engineering and research opportunities with AI startups.
 
-Looking for **Summer 2027 AI startup engineering and research opportunities**.
+## What I’m building
 
-[Portfolio](https://advaitagupta.com) · [Pathfind live](https://www.getpathfind.com)
+### Onyx · A native Mac assistant
 
-## Selected work
+Voice and text commands, local app control, and agent task execution in Swift. The engineering focus is making actions recoverable: typed routing, action policies, and a journal that tracks interrupted work.
 
-- **[Onyx engineering](https://github.com/Advaita-G/onyx-engineering)** — Native Swift assistant prototype focused on local commands and recoverable agent execution. Inspect a runnable journal component and synthetic tests; the full app is private.
-- **[Pathfind](https://github.com/Advaita-G/pathfind-app)** — Opportunity discovery and personalized planning with React, TypeScript, and Supabase. Explore the live product, architecture, and test evidence; application source is private.
-- **[ORB-IEX](https://github.com/Advaita-G/orb-iex-showcase)** — Python port of a reference opening-range breakout strategy with paper-order reconciliation and recovery. Read the engineering case study and test limitations; source is private, with no profitability claim.
+[Run-journal code & tests](https://github.com/Advaita-G/onyx-engineering)
 
-## Contributions to other projects
+### ORB-IEX · Algorithmic trading infrastructure
 
-- **AgenticTrading**: [Sharpe annualization correction and regression tests](https://github.com/Open-Finance-Lab/AgenticTrading/pull/626) — open PR, not merged.
-- **OATutor**: [linear-equation problems and tutoring pathways](https://github.com/CAHLR/OATutor-Content/pull/9) — open PR, not merged.
+A Python opening-range breakout bot for Alpaca paper trading. It handles partial fills, protective orders, and restart recovery, with reconciliation between local state and the broker when requests time out.
 
-Built with AI coding assistance from Codex and Claude. Implementation scope and verification limits are documented per project.
+[Architecture & engineering case study](https://github.com/Advaita-G/orb-iex-showcase)
+
+### Pathfind · From opportunities to a personal plan
+
+A platform for high school students to discover opportunities and build personalized plans. Built with React, TypeScript, and Supabase, with recommendations grounded in catalog data and tests for planning and profile persistence.
+
+[Try Pathfind](https://www.getpathfind.com) · [Engineering notes](https://github.com/Advaita-G/pathfind-app)
